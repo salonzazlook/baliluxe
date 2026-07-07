@@ -362,12 +362,12 @@
                     <div class="absolute -inset-4 bg-gradient-to-r from-gold-300/5 to-transparent blur-3xl pointer-events-none"></div>
                     <div class="relative grid grid-cols-2 gap-4">
                         <div class="space-y-4">
-                            <img src="https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=600&q=80" alt="Plage Bali" class="w-full object-cover h-64 grayscale hover:grayscale-0 transition-all duration-700">
-                            <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=600&q=80" alt="Expérience Voyage" class="w-full object-cover h-40 grayscale hover:grayscale-0 transition-all duration-700">
+                            <img src="https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=600&q=80" alt="Plage Bali" class="w-full object-cover h-64 hover:scale-105 transition-all duration-700">
+                            <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=600&q=80" alt="Expérience Voyage" class="w-full object-cover h-40 hover:scale-105 transition-all duration-700">
                         </div>
                         <div class="space-y-4 pt-12">
-                            <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=600&q=80" alt="Soirée exclusive" class="w-full object-cover h-40 grayscale hover:grayscale-0 transition-all duration-700">
-                            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80" alt="Océan Bali" class="w-full object-cover h-64 grayscale hover:grayscale-0 transition-all duration-700">
+                            <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=600&q=80" alt="Soirée exclusive" class="w-full object-cover h-40 hover:scale-105 transition-all duration-700">
+                            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80" alt="Océan Bali" class="w-full object-cover h-64 hover:scale-105 transition-all duration-700">
                         </div>
                     </div>
                 </div>
@@ -500,7 +500,7 @@
                         </li>
                         <li class="flex items-center gap-2.5">
                             <i class="fa-solid fa-location-dot text-gold-300/70"></i>
-                            <span class="tracking-wide">Seminyak & Uluwatu, Bali, Indonésie</span>
+                            <span class="tracking-wide">Seminyak, Uluwatu, Canggu & Mengwi, Bali, Indonésie</span>
                         </li>
                     </ul>
                 </div>
@@ -533,7 +533,7 @@
         <div class="bg-obsidian-900 border border-gold-300/20 w-full max-w-2xl rounded-none overflow-hidden relative z-10 shadow-2xl animate-scale-in">
             <!-- Modal Header / Image banner -->
             <div class="relative h-48 sm:h-72">
-                <img id="modal-img" src="" alt="" class="w-full h-full object-cover grayscale">
+                <img id="modal-img" src="" alt="" class="w-full h-full object-cover">
                 <div class="absolute inset-0 bg-gradient-to-t from-obsidian-900 via-obsidian-900/30 to-transparent"></div>
                 <button onclick="closeDetailModal()" class="absolute top-4 right-4 w-10 h-10 rounded-none bg-obsidian-950/85 text-white flex items-center justify-center border border-gold-300/10 hover:bg-gold-300 hover:text-obsidian-950 transition-colors">
                     <i class="fa-solid fa-xmark text-sm"></i>
@@ -1227,7 +1227,7 @@
                 card.className = "museum-card bg-obsidian-900 border border-gold-300/10 rounded-none overflow-hidden flex flex-col group h-full";
                 card.innerHTML = `
                     <div class="relative h-64 overflow-hidden">
-                        <img src="${item.img}" alt="${item.title[currentLanguage]}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 grayscale group-hover:grayscale-0">
+                        <img src="${item.img}" alt="${item.title[currentLanguage]}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
                         <div class="absolute top-4 left-4 bg-obsidian-950/90 px-3 py-1.5 rounded-none border border-gold-300/20 text-[9px] font-bold text-gold-300 uppercase tracking-luxury">
                             ${item.tag[currentLanguage]}
                         </div>
